@@ -46,9 +46,19 @@ Also show cases the 'Simple Logging Framework - slf4j'.</description>
 				</configuration>
 			</plugin>
 			                  <plugin>
-                <groupId>org.wildfly.plugins</groupId>
-                <artifactId>wildfly-maven-plugin</artifactId>
-                <configuration>
+              <groupId>org.wildfly.plugins</groupId>
+  <artifactId>wildfly-maven-plugin</artifactId>
+  <version>1.1.0.Alpha10</version>
+  <executions>
+    <execution>
+      <phase>install</phase>
+      <goals>
+        <goal>redeploy</goal>
+      </goals>
+    </execution>
+  </executions>
+  <configuration>
+    <force>true</force>
                     <hostname>192.168.0.174</hostname>
                     <port>9990</port>
                     <username>squall</username>
