@@ -60,12 +60,11 @@ Also show cases the 'Simple Logging Framework - slf4j'.</description>
   </executions>
   <configuration>
     <force>true</force>
-                    <hostname>192.168.0.174</hostname>
+                    <hostname>${hostname}</hostname>
                     <port>9990</port>
                     <username>squall</username>
                     <password>squall</password>
-                    <name>mywebapp.war</name>
-                </configuration>
+                    </configuration>
             </plugin>
 		</plugins>
 		<!-- shown as an example, second priority for the WAR name -->
