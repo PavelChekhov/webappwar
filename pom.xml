@@ -61,7 +61,7 @@ Also show cases the 'Simple Logging Framework - slf4j'.</description>
   <configuration>
     <force>true</force>
                     <hostname>${hostname}</hostname>
-                    <port>9990</port>
+                    <port>${port}</port>
                     <username>squall</username>
                     <password>squall</password>
                     </configuration>
