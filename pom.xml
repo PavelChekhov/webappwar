@@ -62,8 +62,8 @@ Also show cases the 'Simple Logging Framework - slf4j'.</description>
     <force>true</force>
                     <hostname>${hostname}</hostname>
                     <port>${port}</port>
-                    <username>squall</username>
-                    <password>squall</password>
+                    <username>${username}</username>
+                    <password>${password}</password>
 	            <filename>${filename}</filename>
                     </configuration>
             </plugin>
